@@ -1,0 +1,53 @@
+/* Allgemeine Stile für den gesamten Body */
+body {
+    font-family: 'Calibri', sans-serif;  /* Schriftart Calibri */
+    background-color: #E6E6FA;  /* Lavendel-Farbe */
+    color: #000000;  /* Schwarze Schrift */
+    margin: 0;
+    padding: 0;
+}
+
+/* Kopfzeile */
+header {
+    background-color: #D8BFD8;  /* Hellere Lavendel-Farbe */
+    color: #000000;  /* Schwarzer Text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hauptinhalt */
+main {
+    padding: 20px;
+}
+
+/* Überschriften */
+h1, h2 {
+    color: #4B0082;  /* Dunkles Lila für Akzente */
+}
+
+/* Stil für die einzelnen Abschnitte */
+.map-container, .audio-container, .text-container {
+    margin: 20px 0;
+}
+
+/* Platzhalter für die Karte */
+.map-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #DDA0DD;  /* Pastellfarbenes Lila für die Karte */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;  /* Schwarzer Text */
+}
+
+/* Fußzeile */
+footer {
+    background-color: #D8BFD8;  /* Hellere Lavendel-Farbe */
+    color: #000000;  /* Schwarzer Text */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
